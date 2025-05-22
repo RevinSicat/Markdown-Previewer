@@ -1,0 +1,60 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Outfit", sans-serif;
+}
+body h3 {
+  font-size: 16px;
+  margin: 8px 16px;
+}
+
+.div-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background: rgba(25, 202, 179, 0.9843137255);
+  border-bottom: 1px solid #ccc;
+}
+.div-header * {
+  margin: 8px 0;
+}
+
+#main-div {
+  display: flex;
+  height: calc(100vh - 40px);
+  margin: 8px 16px;
+  border: 1px solid #ccc;
+}
+#main-div #editor-div, #main-div #preview-div {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 2px);
+  height: 100%;
+}
+#main-div #editor, #main-div #preview {
+  flex: 1;
+  min-height: 0;
+  padding: 16px;
+  overflow: auto;
+}
+#main-div #editor {
+  border: none;
+  resize: none;
+  font-family: monospace;
+  background: #f8f8f8;
+}
+#main-div #resize-handle {
+  width: 4px;
+  background: #ccc;
+  cursor: col-resize;
+  transition: background 0.2s ease;
+}
+#main-div #resize-handle:hover {
+  background: #cfcfcf;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "marked": "^15.0.12",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
