@@ -32,7 +32,7 @@ body h3 {
 #main-div #editor-div, #main-div #preview-div {
   display: flex;
   flex-direction: column;
-  width: calc(50% - 2px);
+  width: calc(50% - 4px / 2);
   height: 100%;
 }
 #main-div #editor, #main-div #preview {
@@ -40,12 +40,12 @@ body h3 {
   min-height: 0;
   padding: 16px;
   overflow: auto;
+  background: #f7f7f7;
 }
 #main-div #editor {
   border: none;
   resize: none;
   font-family: monospace;
-  background: #f8f8f8;
 }
 #main-div #resize-handle {
   width: 4px;
@@ -55,6 +55,50 @@ body h3 {
 }
 #main-div #resize-handle:hover {
   background: #cfcfcf;
+}
+
+#preview h1 {
+  margin: 8px 0px;
+  font-size: 40px;
+}
+#preview h2 {
+  margin: 8px 0px;
+  font-size: 36px;
+}
+#preview h3 {
+  margin: 8px 0px;
+  font-size: 32px;
+}
+#preview h4 {
+  margin: 8px 0px;
+  font-size: 28px;
+}
+#preview h5 {
+  margin: 8px 0px;
+  font-size: 24px;
+}
+#preview h6 {
+  margin: 8px 0px;
+  font-size: 20px;
+}
+#preview p {
+  margin: 8px 0px;
+  font-size: 16px;
+}
+#preview img {
+  max-width: 100%;
+}
+#preview div {
+  border: 1px solid #070707;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+#preview pre {
+  padding-left: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #ffffff;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
